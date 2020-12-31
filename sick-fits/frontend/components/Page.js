@@ -26,6 +26,14 @@ const Inner = styled.div `
 `
 
 injectGlobal `
+  @font-face {
+    font-family: 'radinka_next';
+    src: url('/static/radinka_next-medium-webfont.wof22');
+    format:('wof22'); 
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
   html{
     box-sizing: border-box; 
     font-size: 10px;
@@ -38,6 +46,12 @@ injectGlobal `
     margin: 0;
     font-size: 1.5rem; 
     line-height: 2; 
+    font-family: 'radinka_next';
+  }
+
+  a{
+    text-decoration: none; 
+    color: ${theme.black}
   }
 `
 
