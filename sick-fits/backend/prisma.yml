@@ -1,0 +1,2 @@
+endpoint: https://us1.prisma.sh/stefanos-65e1fd/graphql-shop/dev
+datamodel: datamodel.prisma
